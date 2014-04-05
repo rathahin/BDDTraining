@@ -1,0 +1,5 @@
+platform :ios, '5.0'
+
+target :RPNCalculatorTests, :exclusive => true do
+  pod 'Kiwi/XCTest'
+end

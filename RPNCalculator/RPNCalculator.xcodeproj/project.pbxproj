@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D727717BC384BCCA8BD8E4C /* libPods-RPNCalculatorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1FDE36C48A479BBADFBDD8 /* libPods-RPNCalculatorTests.a */; };
 		BAE9715D18F0471400C10E23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE9715C18F0471400C10E23 /* Foundation.framework */; };
 		BAE9715F18F0471400C10E23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE9715E18F0471400C10E23 /* CoreGraphics.framework */; };
 		BAE9716118F0471400C10E23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE9716018F0471400C10E23 /* UIKit.framework */; };
@@ -23,6 +24,8 @@
 		BAE9719418F047D400C10E23 /* RPNBinaryOperationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE9719118F047D400C10E23 /* RPNBinaryOperationSpec.m */; };
 		BAE9719518F047D400C10E23 /* RPNStackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE9719218F047D400C10E23 /* RPNStackSpec.m */; };
 		BAE9719618F047D400C10E23 /* RPNUnaryOperationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE9719318F047D400C10E23 /* RPNUnaryOperationSpec.m */; };
+		BAE9719B18F0502200C10E23 /* RPNCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE9719818F0502200C10E23 /* RPNCalculator.m */; };
+		BAE9719C18F0502200C10E23 /* RPNStack.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE9719A18F0502200C10E23 /* RPNStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B1FDE36C48A479BBADFBDD8 /* libPods-RPNCalculatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RPNCalculatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7695099F344B2D94151187 /* Pods-RPNCalculatorTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPNCalculatorTests.xcconfig"; path = "Pods/Pods-RPNCalculatorTests.xcconfig"; sourceTree = "<group>"; };
 		BAE9715918F0471400C10E23 /* RPNCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPNCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE9715C18F0471400C10E23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAE9715E18F0471400C10E23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,6 +62,10 @@
 		BAE9719118F047D400C10E23 /* RPNBinaryOperationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPNBinaryOperationSpec.m; sourceTree = "<group>"; };
 		BAE9719218F047D400C10E23 /* RPNStackSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPNStackSpec.m; sourceTree = "<group>"; };
 		BAE9719318F047D400C10E23 /* RPNUnaryOperationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPNUnaryOperationSpec.m; sourceTree = "<group>"; };
+		BAE9719718F0502200C10E23 /* RPNCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPNCalculator.h; sourceTree = "<group>"; };
+		BAE9719818F0502200C10E23 /* RPNCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPNCalculator.m; sourceTree = "<group>"; };
+		BAE9719918F0502200C10E23 /* RPNStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPNStack.h; sourceTree = "<group>"; };
+		BAE9719A18F0502200C10E23 /* RPNStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPNStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,7 @@
 				BAE9717C18F0471400C10E23 /* XCTest.framework in Frameworks */,
 				BAE9717E18F0471400C10E23 /* UIKit.framework in Frameworks */,
 				BAE9717D18F0471400C10E23 /* Foundation.framework in Frameworks */,
+				0D727717BC384BCCA8BD8E4C /* libPods-RPNCalculatorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +100,7 @@
 				BAE9718118F0471400C10E23 /* RPNCalculatorTests */,
 				BAE9715B18F0471400C10E23 /* Frameworks */,
 				BAE9715A18F0471400C10E23 /* Products */,
+				7E7695099F344B2D94151187 /* Pods-RPNCalculatorTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +120,7 @@
 				BAE9715E18F0471400C10E23 /* CoreGraphics.framework */,
 				BAE9716018F0471400C10E23 /* UIKit.framework */,
 				BAE9717B18F0471400C10E23 /* XCTest.framework */,
+				7B1FDE36C48A479BBADFBDD8 /* libPods-RPNCalculatorTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,6 +128,10 @@
 		BAE9716218F0471400C10E23 /* RPNCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				BAE9719718F0502200C10E23 /* RPNCalculator.h */,
+				BAE9719818F0502200C10E23 /* RPNCalculator.m */,
+				BAE9719918F0502200C10E23 /* RPNStack.h */,
+				BAE9719A18F0502200C10E23 /* RPNStack.m */,
 				BAE9716B18F0471400C10E23 /* AppDelegate.h */,
 				BAE9716C18F0471400C10E23 /* AppDelegate.m */,
 				BAE9716E18F0471400C10E23 /* Main.storyboard */,
@@ -182,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAE9718E18F0471400C10E23 /* Build configuration list for PBXNativeTarget "RPNCalculatorTests" */;
 			buildPhases = (
+				3486F1BC52A54175A6518EA2 /* Check Pods Manifest.lock */,
 				BAE9717618F0471400C10E23 /* Sources */,
 				BAE9717718F0471400C10E23 /* Frameworks */,
 				BAE9717818F0471400C10E23 /* Resources */,
+				EC9A5A0D724A4396B4EE39F0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,13 +268,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3486F1BC52A54175A6518EA2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9A5A0D724A4396B4EE39F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-RPNCalculatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAE9715518F0471400C10E23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAE9719B18F0502200C10E23 /* RPNCalculator.m in Sources */,
 				BAE9717318F0471400C10E23 /* ViewController.m in Sources */,
 				BAE9716D18F0471400C10E23 /* AppDelegate.m in Sources */,
+				BAE9719C18F0502200C10E23 /* RPNStack.m in Sources */,
 				BAE9716918F0471400C10E23 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +460,7 @@
 		};
 		BAE9718F18F0471400C10E23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7695099F344B2D94151187 /* Pods-RPNCalculatorTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RPNCalculator.app/RPNCalculator";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -429,6 +483,7 @@
 		};
 		BAE9719018F0471400C10E23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7695099F344B2D94151187 /* Pods-RPNCalculatorTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RPNCalculator.app/RPNCalculator";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -464,6 +519,7 @@
 				BAE9718D18F0471400C10E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAE9718E18F0471400C10E23 /* Build configuration list for PBXNativeTarget "RPNCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +528,7 @@
 				BAE9719018F0471400C10E23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

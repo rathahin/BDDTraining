@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>58112667-97C2-45A6-9FEB-B9C789F38FFC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RPNCalculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8AE53C49-74CA-44F0-A6A0-EF72706F4FCC</key>
+		<string>https://github.com/rathahin/BDDTraining.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RPNCalculator/RPNCalculator.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8AE53C49-74CA-44F0-A6A0-EF72706F4FCC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rathahin/BDDTraining.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8AE53C49-74CA-44F0-A6A0-EF72706F4FCC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8AE53C49-74CA-44F0-A6A0-EF72706F4FCC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BDDTraining</string>
+		</dict>
+	</array>
+</dict>
+</plist>
